@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+        />
+        <title>UGAMUUX</title>
+    </head>
+    <body>
+        <!-- style="background-image: url(/images/chameleone.jpg)" -->
+        <header>
+            <div class="header-nav">
+                <a href="index.html" class="logo"
+                    ><img src="images/logo.png" alt="Logo"
+                /></a>
+                <ul>
+                    <ul>
+                        <li>
+                            <a href="artists.html">Artists</a>
+                        </li>
+                        <li>
+                            <a href="bands.html">Bands</a>
+                        </li>
+                        <li>
+                            <a href="music_labels.html">Music Labels</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button
+                                    class="btn dropdown-toggle"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                    style="background-color: transparent"
+                                >
+                                    Registration <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="artist_registration.html"
+                                            >Artists</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="band_registration.html"
+                                            >Music Bands</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="label_registration.html"
+                                            >Music Labels</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </header>
+        <form>
+            <label for="realname">Real name:</label></form></br>
+            <input type="text" id="realname" name="realname" /></br><input type="submit" value="submit"/></br>
+            <label for="stagename">Stage name:</label></br>
+            <input type="text" id="lname" name="stagename" /></br><input type="submit" value="submit"/></br>
+            <label for="birthday">Birthday:</label></br>
+            <input type="date" id="birthday" name="birthday" /></br><input type="submit" value="submit"/></br>
+            <label for="location">Location:</label></br>
+            <input type="text" id="location" name="location" /></br><input type="submit" value="submit"/></br>
+            <label for="nin">National Identification Number:</label></br>
+            <input type="alphanumeric" id="nin" name="nin" /></br><input type="submit" value="submit"/></br>
+            <label for="gender">Gender:</label></br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female</br><input type="submit" value="submit"/></br>
+            <label for="no_of_albums">Number of Albums:</label></br>
+            <input type="number" id="no_of_albums" name="no_of_albums" /></br><input type="submit" value="submit"/></br>
+            <label for="artist_id">Artist ID:</label></br>
+            <input type="text" id="artist_id" name="artist_id" /></br><input type="submit" value="submit"/></br>
+            <label for="date_started_to_sing">Career start:</label></br>
+            <input type="date" id="date_started_to_sing" name="date_started_to_sing" /></br><input type="submit" value="submit"/></br>
+            <label for="music_category">Music Category</label>
+            <select name="languages" id="lang">Select category
+                <option value="dancehall">Dancehall</option>
+                <option value="gospel">Gospel</option>
+                <option value="traditional">Traditional</option>
+                <option value="kadongo_kamu">Kadongo Kamu</option>
+            </select></br>
+            <label for="phone_number">Phone number:</label></br>
+            <input type="number" id="phone_number" name="phone_number" /></br><input type="submit" value="submit"/></br>
+        </form>
+    </body>
+    <footer>
+        UGAMUUX is a registered trademark with the Uganda Bureau of
+        Standards.
+    </footer>
+</html>
