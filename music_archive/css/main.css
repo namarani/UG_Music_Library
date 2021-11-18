@@ -30,6 +30,13 @@ body img {
 }
 
 /* Header styles */
+button {
+    background-color: transparent;
+    color: white;
+}
+button:hover {
+    color: orange;
+}
 .header-nav a {
     color: white;
     text-decoration: none;
