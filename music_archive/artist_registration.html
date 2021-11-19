@@ -12,14 +12,13 @@
             type="text/css"
             href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
         />
-        <title>UGAMUUX</title>
+         <title>UGAMUUX</title>
     </head>
     <body>
-        <!-- style="background-image: url(/images/chameleone.jpg)" -->
         <header>
             <div class="header-nav">
                 <a href="index.html" class="logo"
-                    ><img src="images/logo.png" alt="Logo"
+                    ><img src="images/music-logo.jpg" alt="Logo"
                 /></a>
                 <ul>
                     <ul>
@@ -30,42 +29,26 @@
                             <a href="bands.html">Bands</a>
                         </li>
                         <li>
-                            <a href="music_labels.html">Music Labels</a>
+                            <a href="labels.html">Music Labels</a>
                         </li>
                         <li>
-                            <div class="dropdown">
-                                <button
-                                    class="btn dropdown-toggle"
-                                    type="button"
-                                    data-toggle="dropdown"
-                                    style="color: white;background-color: transparent;"
-                                   
-                                >
-                                    Registration <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="artist_registration.html"
-                                            >Artists</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="band_registration.html"
-                                            >Music Bands</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="label_registration.html"
-                                            >Music Labels</a
-                                        >
-                                    </li>
-                                </ul>
-                            </div>
+                            <a href="registration.html">Registration</a>
                         </li>
                     </ul>
                 </ul>
             </div>
         </header>
+        <div class="form-box">
+            <h1>Login Here</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Email Id">
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="myInput">
+            </div>
+            <button type="button" class="login-btn">LOGIN</button>
+        </div>
+        
         <form>
             <label for="realname">Real name:</label></form></br>
             <input type="text" id="realname" name="realname" /></br><input type="submit" value="submit"/></br>
@@ -90,7 +73,7 @@
             <select name="languages" id="lang">Select category
                 <option value="dancehall">Dancehall</option>
                 <option value="gospel">Gospel</option>
-                <option value="traditional">Traditional</option>
+                <option value="traditional">Hip-Hop</option>
                 <option value="kadongo_kamu">Kadongo Kamu</option>
             </select></br>
             <label for="phone_number">Phone number:</label></br>
@@ -98,7 +81,6 @@
         </form>
     </body>
     <footer>
-        UGAMUUX is a registered trademark with the Uganda Bureau of
-        Standards.
+        To register a music artist, band or music label on UGAMUUX, please email ugamuux@gmail.com
     </footer>
 </html>

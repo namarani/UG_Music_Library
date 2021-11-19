@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/music_archive/css/main.css" />
+        <link rel="stylesheet" href="css/main.css" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <link
@@ -12,14 +12,15 @@
             type="text/css"
             href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
         />
+
+        
         <title>MUSIC BAND REGISTRATION</title>
     </head>
     <body>
-        <!-- style="background-image: url(/images/chameleone.jpg)" -->
         <header>
             <div class="header-nav">
                 <a href="index.html" class="logo"
-                    ><img src="images/logo.png" alt="Logo"
+                    ><img src="images/music-logo.jpg" alt="Logo"
                 /></a>
                 <ul>
                     <ul>
@@ -30,41 +31,24 @@
                             <a href="bands.html">Bands</a>
                         </li>
                         <li>
-                            <a href="music_labels.html">Music Labels</a>
+                            <a href="labels.html">Music Labels</a>
                         </li>
                         <li>
-                            <div class="dropdown">
-                                <button
-                                    class="btn dropdown-toggle"
-                                    type="button"
-                                    data-toggle="dropdown"
-                                    style="background-color: transparent"
-                                >
-                                    Registration <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="artist_registration.html"
-                                            >Artists</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="band_registration.html"
-                                            >Music Bands</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="/music_archive/label_registration.html"
-                                            >Music Labels</a
-                                        >
-                                    </li>
-                                </ul>
-                            </div>
+                            <a href="registration.html">Registration</a>
                         </li>
                     </ul>
                 </ul>
             </div>
         </header>
+        <div class="form-box">
+            <h1>Login Here</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Email Id">
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
         <form>
             <label for="realname">Real name:</label></form></br>
             <input type="text" id="realname" name="realname" /></br><input type="submit" value="submit"/></br>
@@ -91,7 +75,6 @@
         </form>
     </body>
     <footer>
-        UGAMUUX is a registered trademark with the Uganda Bureau of
-        Standards.
+        To register a music artist, band or music label on UGAMUUX, please email ugamuux@gmail.com
     </footer>
 </html>
