@@ -117,29 +117,24 @@ header {
 }
 
 /*Body styles */
+
 body h1 {
+    color: rgb(14, 11, 11);
     margin-top: 3em;
     text-align: center;
 }
-.hero-home {
-    max-width: 50%;
-}
-body h1 {
-    color: #ffff;
-}
-html,
+
 body {
-    background-image: url(/music_archive/images/registration-page.jpg);
+    background-image: url(/images/registration-page.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     height: 50%;
     position: relative;
 }
-body {
-    background-color: rgb(116, 105, 116);
-}
+
 .header-nav ul {
     padding-right: 2em;
 }
